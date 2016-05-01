@@ -5,7 +5,15 @@ A [Paw Extension](http://luckymarmot.com/paw/extensions/) which returns the curr
 ## Installation
 
 ```
-wget 
+PAW_EXT="/Users/`whoami`/Library/Containers/com.luckymarmot.Paw/Data/Library/Application Support/com.luckymarmot.Paw/Extensions"
+
+mkdir "$PAW_EXT"
+cd "$PAW_EXT"
+
+curl -Ls \
+	https://github.com/kjones1876/Paw-MomentJSDynamicValue/releases/download/1.0.0/io.kjones.PawExtensions.MomentJSDynamicValue.tar.gz \
+	| tar -zxf -
+
 ```
 
 ## Development
