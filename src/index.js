@@ -7,6 +7,9 @@ var MomentJSValue = function() {
   this.title = function() {
     return "Moment JS";
   };
+  this.text = function() {
+    return this.format;
+  };
 };
 
 
