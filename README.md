@@ -14,14 +14,14 @@ wget
 
 ```
 # Download code
-git clone asdasdasdasdasd momentjs-paw-value
+git clone https://github.com/kjones1876/Paw-MomentJSDynamicValue
 cd Paw-MomentJSDynamicValue
 
 # Symlink the build folder to Paw Extensions folder
 ln -s \
 	"`pwd`/bin" \
 	"/Users/`whoami`/Library/Containers\
-		/com.luckymarmot.Paw/Data/Library/Application Support/"
+		/com.luckymarmot.Paw/Data/Library/Application Support/me.kjones.MomentJSDynamicValue"
 
 # Install deps and build
 npm install

@@ -2,6 +2,6 @@
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'bin/momentjs.js'       
+    filename: 'bin/MomentJSDynamicValue.js'       
   }
 };
