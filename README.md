@@ -11,7 +11,7 @@ mkdir "$PAW_EXT"
 cd "$PAW_EXT"
 
 curl -Ls \
-	https://github.com/kjones1876/Paw-MomentJSDynamicValue/releases/download/1.0.0/io.kjones.PawExtensions.MomentJSDynamicValue.tar.gz \
+	https://github.com/kjones1876/Paw-MomentJSDynamicValue/releases/download/1.0.1/io.kjones.PawExtensions.MomentJSDynamicValue.tar.gz \
 	| tar -zxf -
 
 ```

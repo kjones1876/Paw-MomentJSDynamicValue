@@ -1,6 +1,6 @@
 {
   "name": "me.kjones.momentjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic value that returns a Unix timestamp in milliseconds.",
   "main": "momentjs.js",
   "author": "",
