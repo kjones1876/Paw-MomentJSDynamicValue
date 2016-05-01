@@ -1,6 +1,6 @@
 var moment = require('momentjs');
 
-var Moment = function() {
+var MomentJSValue = function() {
   this.evaluate = function() {
     return moment().format(this.format);
   };
@@ -10,10 +10,11 @@ var Moment = function() {
 };
 
 
-Moment.identifier = "me.kjones.momentjs";
-Moment.title = "Moment JS";
-Moment.inputs = [
-	InputField("format", "Format", "String", {persisted: true, placeholder: "Moment JS Format"})
+MomentJSValue.identifier = "io.kjones.PawExtensions.MomentJSDynamicValue";
+MomentJSValue.title = "Moment JS Format";
+MomentJSValue.inputs = [
+	InputField("format", "Format", "String", {persisted: true, defaultValue: "YYYY-MM-DD", placeholder: "Moment JS Format"})
 ];
 
-registerDynamicValueClass(Moment);
+registerDynamicValueClass(MomentJSValue);
+ 

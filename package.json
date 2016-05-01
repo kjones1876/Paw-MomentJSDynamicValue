@@ -9,6 +9,8 @@
     "momentjs": "^1.1.6"
   },
   "devDependencies": {
+    "fs-extra": "^0.30.0",
+    "on-build-webpack": "^0.1.0",
     "webpack": "^1.13.0"
   }
 }
